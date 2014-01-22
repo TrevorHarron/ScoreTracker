@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/title_make"
+            android:id="@+id/title_make"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="@color/black"
+            android:layout_margin="10dp" />
+
+        <CheckBox
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:text="@string/has_turn_limit"
+            android:id="@+id/is_turn_limit"
+            android:layout_gravity="left|center_vertical"
+            android:checked="false"
+            android:clickable="true"
+            android:enabled="true"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="45dp" />
+
+        <EditText
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/turn_limit"
+            android:layout_gravity="left|center_vertical"
+            android:text="@string/turn_limit"
+            android:editable="true"
+            android:textColor="@color/black"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="10dp" />
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="@string/has_score_limit"
+            android:id="@+id/is_score_limit"
+            android:layout_gravity="right|center_vertical"
+            android:checked="false"
+            android:layout_marginRight="20dp"
+        android:clickable="true"
+        android:enabled="true"
+        android:textColor="@color/black"
+        android:layout_marginBottom="45dp" />
+
+        <EditText
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/score_limit"
+            android:layout_gravity="right|center_vertical"
+            android:text="@string/score_limit"
+            android:editable="true"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="45dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/game_name"
+            android:layout_gravity="center_horizontal|top"
+            android:text="@string/game_name"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="150dp" />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_info"
+            android:id="@+id/button_info"
+            android:layout_gravity="left|bottom"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_margin="15dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_make"
+        android:id="@+id/button_make"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/score_increment"
+        android:text="@string/score_increment"
+        android:layout_gravity="center"
+        android:editable="true"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="45dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_clear"
+        android:id="@+id/button_clear"
+        android:layout_gravity="right|bottom"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="75dp"
+        android:layout_margin="15dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/turn_limit"
+        android:id="@+id/text_turn_limit"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/score_increment"
+        android:id="@+id/text_increments"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/game_name"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="130dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/score_limit"
+        android:id="@+id/text_score_limit"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:textColor="@color/black"/>
+
+</FrameLayout>

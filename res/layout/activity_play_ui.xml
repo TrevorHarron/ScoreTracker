@@ -1,0 +1,81 @@
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome to the Score Tracker!"
+        android:id="@+id/welcome"
+        android:layout_gravity="center_horizontal|top" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn Limit"
+        android:id="@+id/is_turn_limit"
+        android:layout_gravity="left|center_vertical"
+        android:checked="false" />
+
+    <EditText
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/num_turns"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginTop="36dp"
+        android:text="Max Turns"
+        android:layout_marginBottom="-16dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:id="@+id/clear"
+        android:layout_gravity="left|bottom" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:layout_gravity="right|bottom" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help ?"
+        android:id="@+id/help"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score Limit"
+        android:id="@+id/is_score_limit"
+        android:layout_gravity="right|center_vertical"
+        android:checked="false"
+        android:layout_marginRight="24dp" />
+
+    <EditText
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/score_limit"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginTop="46dp"
+        android:text="Score Limit"
+        android:layout_marginRight="10dp" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="96dp"
+        android:text="Game Name" />
+</FrameLayout>
