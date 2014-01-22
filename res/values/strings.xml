@@ -2,7 +2,58 @@
 <resources>
 
     <string name="app_name">Score Tracker</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="button_help">Help</string>
+    <string name="button_info">Info</string>
+    <string name="button_leave">Leave</string>
+    <string name="button_make">Make Game</string>
+    <string name="title_about">About</string>
+    <string name="welcome">Welcome to the Score Tracker!</string>
+    <string name="content_info">
+        The Score Tracker is a generic score
+        keeping app for virtually any game! The only thing you need to do to get
+        started is to hit close out of this window and hit \"Make Game\".\n
+        Then all that you do is answer the questions, put in the names of your players
+        and play! Its that simple, enjoy!\n
+        (If you seem to have trouble clicking out of this box the back button will help.)
+    </string>
+    <string name="content_help">
+        If you lost about where to go next then hit \"Info\" for a description. Or if you are
+        tired press \"Leave\" which will take you back to your home screen. \n
+        (If you seem to have trouble clicking out of this box the back button will help.)
+    </string>
+    <string name="title_make"> Game Settings</string>
+    <string name="game_name">Game Name</string>
+    <string name="has_turn_limit">Has Turn Limit?</string>
+    <string name="has_score_limit">Has Score Limit?</string>
+    <string name="turn_limit">Turn Limit</string>
+    <string name="score_limit">Score Limit</string>
+    <string name="button_clear">Clear</string>
+    <string name="score_increment">Increments</string>
+    <string name="title_error">Error</string>
+    <string name="error_null_name">
+        Please put a name (other than \"Game Name\") into the Game Name field.
+    </string>
+    <string name="make_info">
+        Before playing the game of your choice, fill out the sheet in front of you.\n
+        You must have a Game Name other than \"Game Name\" and if you check the boxes for having a
+        score or turn limit then those fields cannot be blank or contain non-numbers.
+    </string>
+    <string name="unknown_error">
+        An Unknown error has occurred.\n
+        Please check to make sure that you do not have any blank fields that should not be there,
+        letters in number areas, etc. If that is all in order please restart.\n
+        We are sorry for the inconvenience.
+    </string>
+    <string name="field_error">
+        Please check to make sure that you do not have any blank fields that should not be there,
+        letters in number areas, etc.
+    </string>
+    <string name="number_error">
+        Oops! It looks like you have some text in your number fields!\n
+        Please check the Increment field as well as the two limit fields.
+    </string>
+    <string name="turn_error">
+        I'm sorry you cannot have a negative number of turns as a turn limit.
+    </string>
 
 </resources>

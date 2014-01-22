@@ -1,33 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.scoretracker"
+    package="com.trevorharron.scoretracker"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="17" />
-		
-		<instrumentation android:name="android.test.InstrumentationTestRunner"
-		    android:label="Engine Unit Tests"
-        	android:targetPackage="com.scoretracker"/>
-    
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18" />
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+        android:label="Unit Tests"
+        android:targetPackage="com.trevorharron.scoretracker.test"/>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
          <uses-library android:name="android.test.runner" />
-        <activity
-            android:name=".ScoreTrackerUIActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:theme="@style/FullscreenTheme" >
+        <activity android:name=".StartUpActivity">
+            android:label="Welcome"
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MakeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Make"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name=".PlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Play"
+            android:theme="@style/FullscreenTheme" >
         </activity>
     </application>
 
