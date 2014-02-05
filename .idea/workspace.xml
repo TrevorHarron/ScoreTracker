@@ -6,7 +6,7 @@
         <option name="logLevel" value="verbose" />
         <option name="logMessagePattern" value="" />
         <option name="logTagPattern" value="Score Tracker" />
-        <option name="name" value="Intrusive-Debug" />
+        <option name="name" value="Score Tracker" />
         <option name="packageNamePattern" value="" />
         <option name="pid" value="" />
       </filter>
@@ -14,10 +14,7 @@
   </component>
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
-      <GlobalState>
-        <option name="hideForNonLayoutFiles" value="false" />
-        <option name="visible" value="false" />
-      </GlobalState>
+      <GlobalState />
     </option>
   </component>
   <component name="AndroidLayouts">
@@ -25,26 +22,31 @@
       <config />
     </shared>
     <layouts>
-      <layout url="file://$PROJECT_DIR$/res/layout/activity_play_ui.xml">
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_make_game_ui.xml">
         <config>
-          <device>Nexus S</device>
+          <device>Nexus 4</device>
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/res/layout/activity_start_up_ui.xml">
         <config>
-          <device>Nexus 7 2013</device>
+          <device>Nexus 4</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/add_players_layout_ui.xml">
+        <config>
+          <device>Nexus 4</device>
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
     </layouts>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="INFO" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Intrusive-Debug" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc4b7a4-5291-458b-bd50-98de1c6325e1" name="Default" comment="" />
+    <list default="true" id="ee2ed512-4efd-4033-982a-a3256bf2e0a3" name="Default" comment="" />
     <ignored path="ScoreTracker.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,7 +57,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="Commander">
-    <leftPanel url="file://$PROJECT_DIR$" />
+    <leftPanel />
     <rightPanel />
     <splitter proportion="0.5" />
   </component>
@@ -112,33 +114,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MakeActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/MakeActivity.java">
+      <file leaf-file-name="AddPlayersActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/activities/AddPlayersActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="190" column="0" selection-start="6607" selection-end="6607" vertical-scroll-proportion="0.8892308" vertical-offset="3131" max-vertical-offset="3528">
+            <state line="129" column="0" selection-start="4445" selection-end="4445" vertical-scroll-proportion="0.0" vertical-offset="382" max-vertical-offset="2826">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3412#3430#0" expanded="true" />
-                <element signature="e#3494#3513#0" expanded="true" />
-                <element signature="e#3579#3599#0" expanded="true" />
-                <element signature="e#3665#3689#0" expanded="true" />
-                <element signature="e#4892#4911#0" expanded="true" />
-                <element signature="e#5041#5060#0" expanded="true" />
-                <element signature="e#5094#5114#0" expanded="true" />
-                <element signature="e#5232#5252#0" expanded="true" />
-                <element signature="e#5417#5437#0" expanded="true" />
-                <element signature="e#5471#5491#0" expanded="true" />
-                <element signature="e#5903#5924#0" expanded="true" />
-                <element signature="e#6070#6092#0" expanded="true" />
+                <element signature="e#3491#3512#0" expanded="true" />
+                <element signature="e#5016#5036#0" expanded="true" />
+                <element signature="e#5189#5209#0" expanded="true" />
+                <element signature="e#5308#5330#0" expanded="true" />
+                <element signature="e#5541#5561#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <file leaf-file-name="PlayActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/activities/PlayActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="77" selection-start="2892" selection-end="2892" vertical-scroll-proportion="0.0" vertical-offset="773" max-vertical-offset="1152">
+            <state line="17" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MakeActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/activities/MakeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="72" selection-start="2043" selection-end="2057" vertical-scroll-proportion="0.0" vertical-offset="2862" max-vertical-offset="3780">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_play_ui.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_play_ui.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="104" column="40" selection-start="3845" selection-end="3845" vertical-scroll-proportion="1.861244" vertical-offset="1094" max-vertical-offset="2070">
+              <folding>
+                <element signature="e#764#788#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_players_layout_ui.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/add_players_layout_ui.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="79" column="4" selection-start="2957" selection-end="2957" vertical-scroll-proportion="0.0" vertical-offset="1297" max-vertical-offset="1764">
               <folding />
             </state>
           </provider>
@@ -146,13 +175,42 @@
       </file>
       <file leaf-file-name="activity_make_game_ui.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/activity_make_game_ui.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="38" selection-start="2842" selection-end="2842" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="3222">
-              <folding />
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="14" column="12" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="3762">
+              <folding>
+                <element signature="e#486#506#0" expanded="true" />
+                <element signature="e#1035#1054#0" expanded="true" />
+                <element signature="e#1356#1377#0" expanded="true" />
+                <element signature="e#1762#1783#0" expanded="true" />
+                <element signature="e#2142#2164#0" expanded="true" />
+                <element signature="e#2627#2646#0" expanded="true" />
+                <element signature="e#3236#3257#0" expanded="true" />
+                <element signature="e#3666#3687#0" expanded="true" />
+                <element signature="e#4194#4219#0" expanded="true" />
+                <element signature="e#4701#4726#0" expanded="true" />
+                <element signature="e#5382#5402#0" expanded="true" />
+                <element signature="e#5812#5832#0" expanded="true" />
+                <element signature="e#6383#6404#0" expanded="true" />
+                <element signature="e#6741#6776#0" expanded="true" />
+                <element signature="e#7268#7293#0" expanded="true" />
+                <element signature="e#7693#7717#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
+        </entry>
+      </file>
+      <file leaf-file-name="activity_start_up_ui.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_start_up_ui.xml">
+          <provider selected="true" editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="61" column="17" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.0" vertical-offset="1098" max-vertical-offset="1206">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -166,50 +224,27 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/activity_score_tracker_ui.xml" />
-        <option value="$PROJECT_DIR$/src/com/scoretracker/ScoreTrackerUIActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/scoretracker/PlayUIActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/scoretracker/StartUpUIActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/trevorharron/scoretracker/util/InfoDialogue.java" />
-        <option value="$PROJECT_DIR$/src/com/trevorharron/scoretracker/TestInstrumentation.java" />
-        <option value="$PROJECT_DIR$/test/com/trevorharron/scoretracker/test/ScoreTrackerEngineTest.java" />
-        <option value="$PROJECT_DIR$/src/com/trevorharron/scoretracker/PlayUIActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/trevorharron/scoretracker/StartUpUIActivity.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/trevorharron/scoretracker/MakeUIActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/trevorharron/scoretracker/StartUpActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/activity_start_up_ui.xml" />
-        <option value="$PROJECT_DIR$/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/res/layout/activity_make_game_ui.xml" />
+        <option value="$PROJECT_DIR$/.classpath" />
+        <option value="$PROJECT_DIR$/ScoreTracker.iml" />
+        <option value="$PROJECT_DIR$/res/layout/simple_list.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/com/trevorharron/scoretracker/MakeActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_start_up_ui.xml" />
+        <option value="$PROJECT_DIR$/res/layout/add_players_layout_ui.xml" />
+        <option value="$PROJECT_DIR$/src/com/trevorharron/scoretracker/activities/AddPlayersActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/trevorharron/scoretracker/activities/PlayActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_make_game_ui.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_play_ui.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="59" />
-    <option name="y" value="24" />
-    <option name="width" value="1307" />
-    <option name="height" value="744" />
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Android Lint</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>AndroidLintBackButton</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="58" />
+    <option name="y" value="-4" />
+    <option name="width" value="1309" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -237,8 +272,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,24 +300,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scoretracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScoreTracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScoreTracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -303,8 +318,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScoreTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -318,38 +344,54 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="DEBUGGABLE_DEVICE" value="emulator-5554 (AVD_for_Nexus_S)" />
-    <property name="DEBUGGABLE_PROCESS" value="system_process" />
-    <property name="SHOW_ALL_PROCESSES" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SimpleApplicationProject" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Nexus_S" />
-    <property name="SearchEverywhereHistory" value="" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="463" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_5_4in_FWVGA" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="302" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.trevorharron.scoretracker" />
-      <recent name="com.trevorharron" />
-      <recent name="com.scoretracker" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Android Application.ScoreTracker">
-    <configuration default="false" name="StartUpUIActivity" type="AndroidRunConfigurationType" factoryName="Android Application" temporary="true">
+  <component name="RunManager" selected="Android Application.StartUpActivity">
+    <configuration default="false" name="StartUpActivity" type="AndroidRunConfigurationType" factoryName="Android Application" temporary="true">
       <module name="ScoreTracker" />
-      <option name="ACTIVITY_CLASS" value="com.trevorharron.scoretracker.StartUpActivity" />
+      <option name="ACTIVITY_CLASS" value="com.trevorharron.scoretracker.activities.StartUpActivity" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="false" name="All Tests" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
+      <module name="ScoreTracker" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -369,13 +411,13 @@
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
+      <module name="ScoreTracker" />
       <option name="TESTING_TYPE" value="0" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
@@ -384,9 +426,11 @@
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="CLEAR_LOGCAT" value="true" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -394,6 +438,21 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -471,36 +530,15 @@
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="false" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method>
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="false" name="ScoreTracker" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="ScoreTracker" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
+      <option name="ACTIVITY_CLASS" value="com.trevorharron.scoretracker.activities.StartUpActivity" />
+      <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="false" />
+      <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
@@ -508,65 +546,19 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="true" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ScoreTrackerEngineTe..." type="AndroidTestRunConfigurationType" factoryName="Android Tests" nameIsGenerated="true">
-      <module name="ScoreTracker" />
-      <option name="TESTING_TYPE" value="1" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="com.trevorharron.scoretracker.TestInstrumentation" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="com.trevorharron.scoretracker.test.engine.ScoreTrackerEngineTest" />
-      <option name="PACKAGE_NAME" value="com.trevorharron.scoretracker.test" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method>
         <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="false" name="All in ScoreTracker" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="ScoreTracker" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Android Application.ScoreTracker" />
-      <item index="1" class="java.lang.String" itemvalue="Android Tests.ScoreTrackerEngineTe..." />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in ScoreTracker" />
-      <item index="3" class="java.lang.String" itemvalue="Android Application.StartUpUIActivity" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.StartUpActivity" />
+      <item index="1" class="java.lang.String" itemvalue="Android Tests.All Tests" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Android Application.StartUpUIActivity" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Android Application.StartUpActivity" />
+        <item index="1" class="java.lang.String" itemvalue="Android Tests.All Tests" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
@@ -578,34 +570,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SliceManager">
-    <option name="analysisUIOptions">
-      <AnalysisUIOptions />
-    </option>
-  </component>
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <configuration useDefault="true">$USER_HOME$/.subversion</configuration>
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1dc4b7a4-5291-458b-bd50-98de1c6325e1" name="Default" comment="" />
-      <created>1383402880737</created>
-      <updated>1383402880737</updated>
+      <changelist id="ee2ed512-4efd-4033-982a-a3256bf2e0a3" name="Default" comment="" />
+      <created>1391476319223</created>
+      <updated>1391476319223</updated>
     </task>
     <servers />
   </component>
@@ -630,64 +599,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="24" width="1307" height="744" extended-state="0" />
+    <frame x="58" y="-4" width="1309" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2668919" sideWeight="0.49880478" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39613527" sideWeight="0.49881047" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22804055" sideWeight="0.22954726" order="7" side_tool="true" content_ui="tabs" x="360" y="24" width="1003" height="745" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15226011" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.49881047" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23188406" sideWeight="0.14353688" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.49960473" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40033785" sideWeight="0.77045274" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.49960223" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25928855" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.8223632" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23188406" sideWeight="0.85646313" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.49960285" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1938046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33952704" sideWeight="0.7486122" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24900873" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41223833" sideWeight="0.68992865" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.004765687" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.49960473" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39864865" sideWeight="0.49960285" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22804055" sideWeight="0.22954726" order="8" side_tool="true" content_ui="tabs" x="360" y="24" width="1003" height="745" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.49960223" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1938046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33977455" sideWeight="0.7486122" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.022544283" sideWeight="0.49880478" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.004765687" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.49960473" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39613527" sideWeight="0.49881047" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.49960473" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20608108" sideWeight="0.77045274" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25928855" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39864865" sideWeight="0.49960285" order="5" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USERS">
@@ -706,151 +647,125 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/MakeActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/activities/AddPlayersActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="684">
+        <state line="132" column="58" selection-start="4141" selection-end="4141" vertical-scroll-proportion="0.0" vertical-offset="2376" max-vertical-offset="3114">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3412#3430#0" expanded="true" />
-            <element signature="e#3494#3513#0" expanded="true" />
-            <element signature="e#3579#3599#0" expanded="true" />
-            <element signature="e#3665#3689#0" expanded="true" />
-            <element signature="e#4892#4911#0" expanded="true" />
-            <element signature="e#5041#5060#0" expanded="true" />
-            <element signature="e#5094#5114#0" expanded="true" />
-            <element signature="e#5232#5252#0" expanded="true" />
-            <element signature="e#5417#5437#0" expanded="true" />
-            <element signature="e#5471#5491#0" expanded="true" />
-            <element signature="e#5903#5924#0" expanded="true" />
-            <element signature="e#6070#6092#0" expanded="true" />
+            <element signature="e#3491#3512#0" expanded="true" />
+            <element signature="e#5016#5036#0" expanded="true" />
+            <element signature="e#5189#5209#0" expanded="true" />
+            <element signature="e#5308#5330#0" expanded="true" />
+            <element signature="e#5541#5561#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/StartUpActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/activities/MakeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="680" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1692">
+        <state line="69" column="72" selection-start="2043" selection-end="2057" vertical-scroll-proportion="0.0" vertical-offset="1242" max-vertical-offset="3978">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/add_players_layout_ui.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="78" column="4" selection-start="2913" selection-end="2913" vertical-scroll-proportion="0.0" vertical-offset="1279" max-vertical-offset="1746">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_play_ui.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1548">
           <folding>
-            <element signature="e#2018#2039#0" expanded="true" />
+            <element signature="e#764#788#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/activities/StartUpActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1674">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_make_game_ui.xml">
-      <provider editor-type-id="text-editor">
-        <state line="71" column="45" selection-start="2746" selection-end="2746" vertical-scroll-proportion="0.0" vertical-offset="1134" max-vertical-offset="1584">
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="47" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/MakeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="684">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3412#3430#0" expanded="true" />
-            <element signature="e#3494#3513#0" expanded="true" />
-            <element signature="e#3579#3599#0" expanded="true" />
-            <element signature="e#3665#3689#0" expanded="true" />
-            <element signature="e#4892#4911#0" expanded="true" />
-            <element signature="e#5041#5060#0" expanded="true" />
-            <element signature="e#5094#5114#0" expanded="true" />
-            <element signature="e#5232#5252#0" expanded="true" />
-            <element signature="e#5417#5437#0" expanded="true" />
-            <element signature="e#5471#5491#0" expanded="true" />
-            <element signature="e#5903#5924#0" expanded="true" />
-            <element signature="e#6070#6092#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/StartUpActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="680" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1692">
-          <folding>
-            <element signature="e#2018#2039#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_make_game_ui.xml">
       <provider editor-type-id="text-editor">
-        <state line="27" column="39" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="1566">
-          <folding />
+        <state line="197" column="7" selection-start="7626" selection-end="7626" vertical-scroll-proportion="0.0" vertical-offset="3546" max-vertical-offset="3654">
+          <folding>
+            <element signature="e#486#506#0" expanded="true" />
+            <element signature="e#1035#1054#0" expanded="true" />
+            <element signature="e#1356#1377#0" expanded="true" />
+            <element signature="e#1762#1783#0" expanded="true" />
+            <element signature="e#2142#2164#0" expanded="true" />
+            <element signature="e#2627#2646#0" expanded="true" />
+            <element signature="e#3236#3257#0" expanded="true" />
+            <element signature="e#3666#3687#0" expanded="true" />
+            <element signature="e#4194#4219#0" expanded="true" />
+            <element signature="e#4701#4726#0" expanded="true" />
+            <element signature="e#5382#5402#0" expanded="true" />
+            <element signature="e#5812#5832#0" expanded="true" />
+            <element signature="e#6383#6404#0" expanded="true" />
+            <element signature="e#6741#6776#0" expanded="true" />
+            <element signature="e#7268#7293#0" expanded="true" />
+            <element signature="e#7693#7717#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_start_up_ui.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/MakeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="684">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3412#3430#0" expanded="true" />
-            <element signature="e#3494#3513#0" expanded="true" />
-            <element signature="e#3579#3599#0" expanded="true" />
-            <element signature="e#3665#3689#0" expanded="true" />
-            <element signature="e#4892#4911#0" expanded="true" />
-            <element signature="e#5041#5060#0" expanded="true" />
-            <element signature="e#5094#5114#0" expanded="true" />
-            <element signature="e#5232#5252#0" expanded="true" />
-            <element signature="e#5417#5437#0" expanded="true" />
-            <element signature="e#5471#5491#0" expanded="true" />
-            <element signature="e#5903#5924#0" expanded="true" />
-            <element signature="e#6070#6092#0" expanded="true" />
-          </folding>
+      <provider editor-type-id="text-editor">
+        <state line="61" column="17" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.0" vertical-offset="1098" max-vertical-offset="1206">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/StartUpActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/activities/AddPlayersActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="680" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1692">
+        <state line="21" column="13" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2862">
           <folding>
-            <element signature="e#2018#2039#0" expanded="true" />
+            <element signature="e#3491#3512#0" expanded="true" />
+            <element signature="e#5016#5036#0" expanded="true" />
+            <element signature="e#5189#5209#0" expanded="true" />
+            <element signature="e#5308#5330#0" expanded="true" />
+            <element signature="e#5541#5561#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="8" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738">
-          <folding>
-            <element signature="e#603#621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="89" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="558">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1116">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/StartUpActivity.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="28" selection-start="2051" selection-end="2051" vertical-scroll-proportion="0.0" vertical-offset="1098" max-vertical-offset="1530">
-          <folding>
-            <element signature="e#2018#2039#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="2" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="144" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen/com/trevorharron/scoretracker/R.java">
+    <entry file="file://$PROJECT_DIR$/ScoreTracker/src/main/java/com/trevorharron/scoretracker/fragments/PlayerListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="216" />
+        <state line="20" column="7" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="2052" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="39" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gen/com/trevorharron/scoretracker/Manifest.java">
@@ -858,139 +773,106 @@
         <state line="5" column="19" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="216" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/trevorharron/scoretracker/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gen/com/trevorharron/scoretracker/BuildConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="234" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="5" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="756">
-          <folding>
-            <element signature="e#603#621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="19" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="756">
-          <folding>
-            <element signature="e#603#621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="756">
-          <folding>
-            <element signature="e#603#621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="32" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="630">
-          <folding>
-            <element signature="e#603#621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="615">
-          <folding>
-            <element signature="e#603#621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585" />
+        <state line="7" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="234" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ScoreTracker.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390" />
+        <state line="15" column="55" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="450" />
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-18/android.jar!/android/os/Handler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.76744187" vertical-offset="858" max-vertical-offset="1245" />
+    <entry file="file://$PROJECT_DIR$/res/layout/add_players_layout_ui.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1314">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/activities/AddPlayersActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="379" />
+        <state line="21" column="13" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2862">
+          <folding>
+            <element signature="e#3491#3512#0" expanded="true" />
+            <element signature="e#5016#5036#0" expanded="true" />
+            <element signature="e#5189#5209#0" expanded="true" />
+            <element signature="e#5308#5330#0" expanded="true" />
+            <element signature="e#5541#5561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1116">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/add_players_layout_ui.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1314">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/activities/AddPlayersActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="13" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2862">
+          <folding>
+            <element signature="e#3491#3512#0" expanded="true" />
+            <element signature="e#5016#5036#0" expanded="true" />
+            <element signature="e#5189#5209#0" expanded="true" />
+            <element signature="e#5308#5330#0" expanded="true" />
+            <element signature="e#5541#5561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1116">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/add_players_layout_ui.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1314">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreTracker/src/main/java/com/trevorharron/scoretracker/fragments/PlayerListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="7" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="1926" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.classpath">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="379" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="585" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/trevorharron/scoretracker/test/ScoreTrackerEngineTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="42" selection-start="54" selection-end="54" vertical-scroll-proportion="-0.116883114" vertical-offset="54" max-vertical-offset="1260" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/com/trevorharron/scoretracker/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216" />
+        <state line="4" column="39" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gen/com/trevorharron/scoretracker/Manifest.java">
@@ -998,113 +880,237 @@
         <state line="5" column="19" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen/com/trevorharron/scoretracker/BuildConfig.java">
+    <entry file="file://$PROJECT_DIR$/gen/com/trevorharron/scoretracker/R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/PlayActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="270" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="666">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state line="5" column="19" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="34" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="219" max-vertical-offset="846">
-          <folding>
-            <element signature="e#603#621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-18/android.jar!/java/lang/reflect/Method.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.7740586" vertical-offset="584" max-vertical-offset="1062" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-18/android.jar!/java/lang/Override.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="306" selection-end="306" vertical-scroll-proportion="0.23954372" vertical-offset="0" max-vertical-offset="526" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="27" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
+        <state line="9" column="0" selection-start="303" selection-end="303" vertical-scroll-proportion="-4.327273" vertical-offset="638" max-vertical-offset="1116">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/StartUpActivity.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-18/android.jar!/android/content/res/Resources.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="28" selection-start="2018" selection-end="2018" vertical-scroll-proportion="0.5391705" vertical-offset="720" max-vertical-offset="1584">
-          <folding>
-            <element signature="e#2018#2039#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="128" column="0" selection-start="7880" selection-end="7880" vertical-scroll-proportion="0.3298969" vertical-offset="2254" max-vertical-offset="2394" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_start_up_ui.xml">
+    <entry file="file://$PROJECT_DIR$/gen/com/trevorharron/scoretracker/BuildConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1062">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.5" vertical-offset="71" max-vertical-offset="234" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreTracker.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="55" selection-start="691" selection-end="691" vertical-scroll-proportion="2.4545455" vertical-offset="0" max-vertical-offset="450" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-18/android.jar!/android/R.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="556" column="32" selection-start="40118" selection-end="40118" vertical-scroll-proportion="18.196722" vertical-offset="0" max-vertical-offset="35658" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/simple_list.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-18/android.jar!/android/widget/Checkable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="218" selection-end="218" vertical-scroll-proportion="0.32824427" vertical-offset="101" max-vertical-offset="306" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-18/android.jar!/android/widget/CompoundButton.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="754" selection-end="754" vertical-scroll-proportion="0.33050847" vertical-offset="267" max-vertical-offset="1044" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_make_game_ui.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="38" selection-start="2842" selection-end="2842" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="3222">
+        <state line="14" column="33" selection-start="547" selection-end="547" vertical-scroll-proportion="-8.689655" vertical-offset="0" max-vertical-offset="378">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="77" selection-start="2892" selection-end="2892" vertical-scroll-proportion="0.0" vertical-offset="773" max-vertical-offset="1152">
+        <state line="65" column="13" selection-start="3201" selection-end="3201" vertical-scroll-proportion="0.0" vertical-offset="980" max-vertical-offset="1422">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/MakeActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_start_up_ui.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="61" column="17" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1206">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/activities/StartUpActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="0" selection-start="6607" selection-end="6607" vertical-scroll-proportion="0.8892308" vertical-offset="3131" max-vertical-offset="3528">
+        <state line="16" column="13" selection-start="394" selection-end="394" vertical-scroll-proportion="-0.41860464" vertical-offset="288" max-vertical-offset="1512">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/activities/MakeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="72" selection-start="2043" selection-end="2057" vertical-scroll-proportion="0.0" vertical-offset="2862" max-vertical-offset="3780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/activities/AddPlayersActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="0" selection-start="4445" selection-end="4445" vertical-scroll-proportion="0.0" vertical-offset="1894" max-vertical-offset="2826">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3412#3430#0" expanded="true" />
-            <element signature="e#3494#3513#0" expanded="true" />
-            <element signature="e#3579#3599#0" expanded="true" />
-            <element signature="e#3665#3689#0" expanded="true" />
-            <element signature="e#4892#4911#0" expanded="true" />
-            <element signature="e#5041#5060#0" expanded="true" />
-            <element signature="e#5094#5114#0" expanded="true" />
-            <element signature="e#5232#5252#0" expanded="true" />
-            <element signature="e#5417#5437#0" expanded="true" />
-            <element signature="e#5471#5491#0" expanded="true" />
-            <element signature="e#5903#5924#0" expanded="true" />
-            <element signature="e#6070#6092#0" expanded="true" />
+            <element signature="e#3491#3512#0" expanded="true" />
+            <element signature="e#5016#5036#0" expanded="true" />
+            <element signature="e#5189#5209#0" expanded="true" />
+            <element signature="e#5308#5330#0" expanded="true" />
+            <element signature="e#5541#5561#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/trevorharron/scoretracker/activities/PlayActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/add_players_layout_ui.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="79" column="4" selection-start="2957" selection-end="2957" vertical-scroll-proportion="0.0" vertical-offset="1297" max-vertical-offset="1764">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_make_game_ui.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="14" column="12" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="3690">
+          <folding>
+            <element signature="e#486#506#0" expanded="true" />
+            <element signature="e#1035#1054#0" expanded="true" />
+            <element signature="e#1356#1377#0" expanded="true" />
+            <element signature="e#1762#1783#0" expanded="true" />
+            <element signature="e#2142#2164#0" expanded="true" />
+            <element signature="e#2627#2646#0" expanded="true" />
+            <element signature="e#3236#3257#0" expanded="true" />
+            <element signature="e#3666#3687#0" expanded="true" />
+            <element signature="e#4194#4219#0" expanded="true" />
+            <element signature="e#4701#4726#0" expanded="true" />
+            <element signature="e#5382#5402#0" expanded="true" />
+            <element signature="e#5812#5832#0" expanded="true" />
+            <element signature="e#6383#6404#0" expanded="true" />
+            <element signature="e#6741#6776#0" expanded="true" />
+            <element signature="e#7268#7293#0" expanded="true" />
+            <element signature="e#7693#7717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_play_ui.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="40" selection-start="3845" selection-end="3845" vertical-scroll-proportion="1.861244" vertical-offset="1094" max-vertical-offset="2070">
+          <folding>
+            <element signature="e#764#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android API 18 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ScoreTracker</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android API 18 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>android-support-v4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

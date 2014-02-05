@@ -27,6 +27,7 @@ public class GameBasicImpl implements Game {
 		this.name = name;
 		this.useRoundLimit = useRoundLimit;
 		this.players = new ArrayList<String>();
+        this.startingScore = startingScore;
 		if(useRoundLimit){
 			this.roundLimit = roundLimit;
 		} else {
@@ -67,7 +68,7 @@ public class GameBasicImpl implements Game {
 
 	@Override
 	public void nextRound() {
-		this.round += 1;	
+		this.round += 1;
 	}
 	
 	@Override

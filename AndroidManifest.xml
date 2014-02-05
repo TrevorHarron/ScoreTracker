@@ -5,8 +5,18 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="10"
-        android:targetSdkVersion="18" />
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission
+        android:required="true"
+        android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission
+        android:required="true"
+        android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission
+        android:required="true"
+        android:name="android.permission.INTERNET"/>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
         android:label="Unit Tests"
@@ -18,20 +28,25 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
          <uses-library android:name="android.test.runner" />
-        <activity android:name=".StartUpActivity">
+        <activity android:name=".activities.StartUpActivity">
             android:label="Welcome"
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MakeActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
+        <activity android:name=".activities.MakeActivity"
+            android:configChanges="orientation|screenSize"
             android:label="Make"
             android:theme="@style/FullscreenTheme" >
         </activity>
+        <activity android:name=".activities.AddPlayersActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Players"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
         <activity
-            android:name=".PlayActivity"
+            android:name=".activities.PlayActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Play"
             android:theme="@style/FullscreenTheme" >
