@@ -11,30 +11,27 @@ public class ScoreTrackerImpl implements ScoreTracker {
 	
 	private Game game;
 	private HashMap<String, ArrayList<Integer>> scores;
+    private HashMap<String, Integer> totals;
 
 	public ScoreTrackerImpl(final Game game){
 		this.game = game;
 		this.scores = new HashMap<String, ArrayList<Integer>>(game.getPlayerList().size());
+        this.totals = new HashMap<String, Integer>(game.getPlayerList().size());
 		for(int playerIndex = 0; playerIndex < game.getPlayerList().size(); playerIndex++){
 			ArrayList<Integer> playerScoreList =  new ArrayList<Integer>();
 			playerScoreList.add(game.getStartValue());
 			scores.put(game.getPlayerList().get(playerIndex), playerScoreList);
+            totals.put(game.getPlayerList().get(playerIndex), 0);
 		}
 	}
 
 	@Override
-	public HashMap<String, Integer> totals() {
-		ArrayList<String> playerList = game.getPlayerList();
-		HashMap<String, Integer> totalsHash = new HashMap<String, Integer>(playerList.size());
-		for(int playerIndex = 0; playerIndex < playerList.size(); playerIndex++){
-			String player = playerList.get(playerIndex);
-			int total = calculateTotals(scores.get(player));
-			totalsHash.put(player, total);
-		}
-		return totalsHash;
+	public HashMap<String, Integer> getTotals() {
+		return totals;
 	}
 
 	@Override
+    //TODO Check this
 	public HashMap<String, ArrayList<Integer>> scoresAndTotals() {
 		ArrayList<String> playerList = game.getPlayerList();
 		HashMap<String, ArrayList<Integer>> scoresAndTotals = new HashMap<String, ArrayList<Integer>>(playerList.size());
@@ -43,27 +40,19 @@ public class ScoreTrackerImpl implements ScoreTracker {
 			String player = playerList.get(playerIndex);
 			ArrayList<Integer> scoresList = scores.get(player);
 			ArrayList<Integer> playerScoreList = new ArrayList<Integer>(scoresList.size() + 1);
-			for(int index = 0; index < scoresList.size(); index++){
+			for(int index = 0; index < scoresList.size(); index++)
 				playerScoreList.add(scoresList.get(index));
-			}
 			scoresAndTotals.put(player, playerScoreList);
-			scoresAndTotals.get(player).add(calculateTotals(playerScoreList));
+			scoresAndTotals.get(player).add(totals.get(player));
 		}
 		return scoresAndTotals;
-	}
-	
-	private int calculateTotals(final ArrayList<Integer> playerScoreList){
-		int score = 0;
-		for(int index = 0; index < playerScoreList.size(); index++){
-			score += playerScoreList.get(index);
-		}
-		return score;
 	}
 	
 	@Override
 	public void addScore(String player, int points) throws NoPlayerException {
 		if(game.getPlayerList().contains(player)){
-			this.scores.get(player).add(points);
+			scores.get(player).add(points);
+            totals.put(player, totals.get(player) + points);
 		} else {
 			throw new NoPlayerException(player + " not in players list");
 		}

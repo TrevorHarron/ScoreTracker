@@ -141,7 +141,9 @@
         android:textColor="@color/black"
         android:layout_above="@+id/button_make"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/start_score"
+        android:layout_alignEnd="@+id/start_score" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -152,8 +154,8 @@
         android:layout_gravity="left|bottom"
         android:textColor="@color/black"
         android:layout_above="@+id/turn_limit"
-        android:layout_alignRight="@+id/turn_limit"
-        android:layout_alignEnd="@+id/turn_limit" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:layout_width="121dp"
@@ -165,8 +167,8 @@
         android:text="@string/start_score"
         android:textColor="@color/black"
         android:layout_centerVertical="true"
-        android:layout_alignRight="@+id/text_turn_limit"
-        android:layout_alignEnd="@+id/text_turn_limit" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -177,9 +179,8 @@
         android:id="@+id/start_score_view"
         android:layout_gravity="left|center_vertical"
         android:layout_above="@+id/start_score"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="20dp" />
+        android:layout_alignLeft="@+id/start_score"
+        android:layout_alignStart="@+id/start_score" />
 
     <CheckBox
         android:layout_width="wrap_content"
@@ -199,6 +200,8 @@
         android:id="@+id/is_turn_limit"
         android:textColor="@color/black"
         android:checked="false"
-        android:layout_above="@+id/text_turn_limit" />
+        android:layout_above="@+id/text_turn_limit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

@@ -1,8 +1,9 @@
 package com.trevorharron.scoretracker.game;
 
-import java.util.ArrayList;
-
 import com.trevorharron.scoretracker.exceptions.NotUsedException;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public interface Game {
 
@@ -75,7 +76,12 @@ public interface Game {
 	
 	/**
 	 * Add a player to a game
-	 * @param palyer
+	 * @param player
 	 */
 	void addPlayer(String player);
+
+    /**
+     * get the increment for scoring
+     */
+    int getIncrement();
 }

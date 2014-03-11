@@ -4,107 +4,63 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="@color/white">
 
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_below="@+id/game_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/new_button"
+        android:choiceMode="singleChoice"
+        android:clickable="true" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Welcome to the Score Tracker!"
-        android:id="@+id/welcome"
-        android:textColor="@color/black"
-        android:layout_gravity="center_horizontal|top"
+        android:text="@string/game_name"
+        android:id="@+id/game_name"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <CheckBox
-        android:layout_width="162dp"
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/has_turn_limit"
-        android:id="@+id/is_turn_limit"
-        android:layout_gravity="left|center_vertical"
-        android:checked="false"
-        android:layout_below="@+id/num_turns"
-        android:textColor="@color/black"
+        android:text="@string/next_turn"
+        android:id="@+id/button_next"
+        android:layout_below="@+id/listView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Turn"
+        android:id="@+id/view_turn_number"
+        android:layout_alignBottom="@+id/button_next"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/view_current"
+        android:id="@+id/view_current"
+        android:layout_alignTop="@+id/new_button"
+        android:layout_alignLeft="@+id/game_name"
+        android:layout_alignStart="@+id/game_name" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_game"
+        android:id="@+id/new_button"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
-    <EditText
-        android:layout_width="119dp"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:ems="10"
-        android:id="@+id/num_turns"
-        android:layout_gravity="left|center_vertical"
-        android:text="Max Turns"
-        android:layout_below="@+id/welcome"
-        android:textColor="@color/black"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="94dp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Clear"
-        android:id="@+id/clear"
-        android:layout_gravity="left|bottom"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/num_turns"
-        android:textColor="@color/black"
-        android:layout_alignEnd="@+id/num_turns" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Submit"
-        android:id="@+id/submit"
-        android:layout_gravity="right|bottom"
-        android:layout_alignParentBottom="true"
-        android:textColor="@color/black"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Help ?"
-        android:id="@+id/help"
-        android:layout_gravity="center_horizontal|bottom"
-        android:textColor="@color/black"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Score Limit"
-        android:id="@+id/is_score_limit"
-        android:layout_gravity="right|center_vertical"
-        android:checked="false"
-        android:layout_below="@+id/score_limit"
-        android:textColor="@color/black"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:layout_width="124dp"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:ems="10"
-        android:id="@+id/score_limit"
-        android:textColor="@color/black"
-        android:layout_gravity="right|center_vertical"
-        android:text="Score Limit"
-        android:layout_above="@+id/is_turn_limit"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/name"
-        android:textColor="@color/black"
-        android:layout_gravity="center_horizontal|top"
-        android:text="Game Name"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
 </RelativeLayout>

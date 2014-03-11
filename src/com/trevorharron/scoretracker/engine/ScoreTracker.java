@@ -18,7 +18,7 @@ public interface ScoreTracker {
 	 * their score for display purposes
 	 * @return A map of the players and their totaled scores
 	 */
-	HashMap<String, Integer> totals();
+	HashMap<String, Integer> getTotals();
 	
 	/**
 	 * @return A map of players there scores and totals by round

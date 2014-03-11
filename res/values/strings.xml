@@ -23,9 +23,9 @@
     </string>
     <string name="title_make"> Game Settings</string>
     <string name="game_name">Game Name</string>
-    <string name="has_turn_limit">Has Turn Limit?</string>
+    <string name="has_turn_limit">Has Round Limit?</string>
     <string name="has_score_limit">Has Score Limit?</string>
-    <string name="turn_limit">Turn Limit</string>
+    <string name="turn_limit">Round Limit</string>
     <string name="score_limit">Score Limit</string>
     <string name="button_clear">Clear</string>
     <string name="score_increment">Increments</string>
@@ -69,6 +69,6 @@
     <string name="start_score">Start score</string>
     <string name="add_welcome">Now add players before starting!</string>
     <string name="default_name">Name</string>
-    <string name="play">Play</string>
+    <string name="play">Play</string><string name="next_turn">Next Turn</string><string name="view_current">Current Player</string><string name="new_game">New Game</string>
 
 </resources>

@@ -16,7 +16,7 @@ import com.trevorharron.scoretracker.R;
 /**
  * Created by trevorharron on 1/12/14.
  */
-public class MakeActivity extends Activity implements OnClickListener {
+public class MakeActivity extends BasicActivity implements OnClickListener {
 
     private static String MAKE_TAG = "Score Tracker Make";
 
@@ -94,21 +94,6 @@ public class MakeActivity extends Activity implements OnClickListener {
         textStartScore = (EditText) findViewById(R.id.start_score);
         if(textStartScore != null)
             Log.i(MAKE_TAG, "Text Start Score created");
-    }
-
-    @Override
-    public void onPause(){
-        super.onPause();
-    }
-
-    @Override
-    public void onResume(){
-        super.onResume();
-    }
-
-    @Override
-    public void onDestroy(){
-        super.onDestroy();
     }
 
     public void onClick(View view){
@@ -198,18 +183,5 @@ public class MakeActivity extends Activity implements OnClickListener {
                 return;
             }
         }
-    }
-
-    private void showError(final int errorMsgId){
-        new AlertDialog.Builder(this)
-                .setCancelable(true)
-                .setMessage(errorMsgId)
-                .setTitle(R.string.title_error)
-                .show();
-    }
-
-    private boolean blankOrDefault(final EditText edit, final int defaultId){
-        return edit.getText().toString().isEmpty() ||
-                edit.getText().toString().equals(getString(defaultId));
     }
 }

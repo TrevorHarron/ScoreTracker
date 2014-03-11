@@ -1,11 +1,8 @@
 package com.trevorharron.scoretracker.activities;
 
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.ListActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Layout;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -21,7 +18,7 @@ import java.util.ArrayList;
 /**
  * Created by trevorharron on 1/22/14.
  */
-public class AddPlayersActivity extends Activity implements View.OnClickListener{
+public class AddPlayersActivity extends BasicActivity implements View.OnClickListener{
 
     private static String ADD_TAG = "Score Tracker Add";
 
@@ -37,13 +34,6 @@ public class AddPlayersActivity extends Activity implements View.OnClickListener
     private ListView playerList;
 
     private String gameName;
-    private boolean hasScoreLimit;
-    private boolean hasTurnLimit;
-    private int turnLimit = -1;
-    private int scoreLimit = -1;
-    private int increment;
-    private int startScore;
-
 
     private ArrayList<String> players;
     private ArrayAdapter<String> playersAdapter;
@@ -54,7 +44,6 @@ public class AddPlayersActivity extends Activity implements View.OnClickListener
         setContentView(R.layout.add_players_layout_ui);
 
         cIntent = getIntent();
-
         players = new ArrayList<String>();
 
         gameNameView = (TextView) findViewById(R.id.game_name);
@@ -85,9 +74,8 @@ public class AddPlayersActivity extends Activity implements View.OnClickListener
         }
 
         textPlayerName = (EditText) findViewById(R.id.text_player_name);
-        if(textPlayerName != null){
+        if(textPlayerName != null)
             Log.i(ADD_TAG, "Player name created");
-        }
 
         playerList = (ListView) findViewById(android.R.id.list);
         if(playerList != null){
@@ -95,12 +83,6 @@ public class AddPlayersActivity extends Activity implements View.OnClickListener
             playersAdapter = new ArrayAdapter<String>(this, R.layout.simple_list, R.id.name_view,players);
             playerList.setAdapter(playersAdapter);
         }
-    }
-
-    @Override
-    public void onResume(){
-        super.onResume();
-        //get data
     }
 
     public void onClick(View view){
@@ -113,7 +95,7 @@ public class AddPlayersActivity extends Activity implements View.OnClickListener
                     textPlayerName.setText(R.string.default_name);
                     playersAdapter.notifyDataSetChanged();
                 }
-            }  else if(view.getId() == R.id.button_remove){
+            } else if(view.getId() == R.id.button_remove){
                 Log.i(ADD_TAG, "Remove Pressed");
                 if(players.contains(textPlayerName.getText().toString())){
                     players.remove(textPlayerName.getText().toString());
@@ -136,9 +118,8 @@ public class AddPlayersActivity extends Activity implements View.OnClickListener
 
                     nextIntent.putStringArrayListExtra("players",players);
                     startActivity(nextIntent);
-                } else {
+                } else
                     showError(R.string.empty_error);
-                }
             }
         } catch(NullPointerException e){
             Log.e(ADD_TAG,"Null Pointer Exception",e);
@@ -147,19 +128,6 @@ public class AddPlayersActivity extends Activity implements View.OnClickListener
             Log.e(ADD_TAG, "Exception",e);
             showError(R.string.unknown_error);
         }
-    }
-
-    private void showError(final int errorMsgId){
-        new AlertDialog.Builder(this)
-                .setCancelable(true)
-                .setMessage(errorMsgId)
-                .setTitle(R.string.title_error)
-                .show();
-    }
-
-    private boolean blankOrDefault(final EditText edit, final int defaultId){
-        return edit.getText().toString().isEmpty() ||
-                edit.getText().toString().equals(getString(defaultId));
     }
 
 
