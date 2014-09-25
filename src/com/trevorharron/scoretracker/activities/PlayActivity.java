@@ -100,7 +100,11 @@ public class PlayActivity extends ListActivity implements View.OnClickListener{
 
     @Override
     public void onClick(View view){
-
+        if(view.getId() == R.id.new_button){
+            //TODO if they want a new game
+        } else if(view.getId()==R.id.button_next){
+            //TODO signal a new round
+        }
     }
 
     @Override

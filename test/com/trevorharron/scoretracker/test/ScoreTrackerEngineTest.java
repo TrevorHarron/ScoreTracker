@@ -30,7 +30,7 @@ public class ScoreTrackerEngineTest extends TestCase{
 		testPlayerList.add("Bob");
 		testPlayerList.add("Susan");
 		//, testPlayerList, true, 10, true, 10
-		testGame = new GameBasicImpl("Foo Game", 0, true, 0, true, 0);
+		testGame = new GameBasicImpl("Foo Game", 0, 0, true, 0,true, 1, testPlayerList);
 		testGame.addPlayer("Bob");
 		testGame.addPlayer("Susan");
 		testEngine = new ScoreTrackerImpl(testGame);
@@ -46,7 +46,7 @@ public class ScoreTrackerEngineTest extends TestCase{
 	
 	public void testTotals(){
 		HashMap<String, Integer> totals = new HashMap<String, Integer>();
-		totals = testEngine.totals();
+		totals = testEngine.getTotals();
 		HashMap<String, Integer> desired = new HashMap<String, Integer>();
 		desired.put("Bob", 10);
 		desired.put("Susan", 15);
